@@ -1,0 +1,8 @@
+set terminal png
+set output "sinTime.png"
+set title "Contaminated Sinus"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinTimeContaminated" title""

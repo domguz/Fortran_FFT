@@ -1,0 +1,8 @@
+set terminal png
+set output "sinFreqClear.png"
+set title "Cleared Sinus"
+set xlabel "Frequency"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinFreqClear" title""

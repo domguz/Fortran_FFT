@@ -1,0 +1,8 @@
+set terminal png
+set output "sinusCleared.png"
+set title "Sinus Cleared"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinTimeCleared" title""

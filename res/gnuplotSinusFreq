@@ -1,0 +1,8 @@
+set terminal png
+set output "sinFreq.png"
+set title "Contaminated sinus"
+set xlabel "Frequency"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinFreqContaminated" title""

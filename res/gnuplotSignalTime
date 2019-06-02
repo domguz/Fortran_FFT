@@ -1,0 +1,8 @@
+set terminal png
+set output "signal.png"
+set title "Signal"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sigTime" title""
