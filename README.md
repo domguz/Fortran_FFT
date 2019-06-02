@@ -14,18 +14,24 @@ The FFT (Fast Fourier Transform) is used here to get the signals, that the final
 
 2)We use the sinus signal: **f(t)=sin(2πt)**.
 With a chart:
+
 ![alt text](https://github.com/domguz/Fortran_FFT/blob/master/res/ClearSinus.png)
 
+
 and then contaminate him:
+
 ![alt text](https://github.com/domguz/Fortran_FFT/blob/master/res/sinTime.png)
 
 and then on contaminated signal the FFT is made:
+
 ![alt text](https://github.com/domguz/Fortran_FFT/blob/master/res/sinFreq.png)
 
 Signals with low value are deleted:
+
 ![alt text](https://github.com/domguz/Fortran_FFT/blob/master/res/sinFreqClear.png)
 
 and the fft is made one more time:
+
 ![alt text](https://github.com/domguz/Fortran_FFT/blob/master/res/sinusCleared.png)
 
 
